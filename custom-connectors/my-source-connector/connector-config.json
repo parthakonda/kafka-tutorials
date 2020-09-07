@@ -1,0 +1,12 @@
+{
+  "name": "dbsinkexample",
+  "config": {
+    "connector.class": "com.phizzle.DBSinkConnector",
+    "tasks.max": "1",
+    "topics": "db_sink_example",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "value.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "key.converter.schemas.enable": "false",
+    "value.converter.schemas.enable": "false"
+  }
+}
